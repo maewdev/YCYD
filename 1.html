@@ -19,7 +19,7 @@ let f1='https://maewdev.netlify.app/LAZAffLinkMaker/LALM.txt';
 
 fetch(f1, {mode: 'no-cors'})
 .then(response => {
-  console.log(response) 
+  console.log(response.text()) 
 })
 .catch(error => console.error(error))
 </script>
